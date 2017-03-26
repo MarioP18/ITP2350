@@ -1,0 +1,62 @@
+
+video-content1 video {
+    width: 600px;
+    height: 600px;
+ 
+}
+
+
+
+header { 
+    text-align: center;
+     background: url("Imagenes/YHiAZa.jpg");
+    background-size: cover;
+    color: gray;
+    
+}
+h1{font-size: 45px}
+
+nav {text-align: center;
+
+  
+    
+}
+a{color: black;
+    text-decoration: none;
+}
+
+
+li{
+    list-style:none;
+display:inline;
+padding:0px 40px 0px 10px;
+    
+}
+
+
+    
+   
+    
+}
+/***************************************
+*           section                    *
+***************************************/ 
+
+article{
+    max-width:500px;
+    padding: 20px;
+    margin:0 auto;
+    text-align: justify;
+}
+
+@media (max-width: 500px){
+    h1 {font-size: 36px;}
+    li {display: block;
+        padding:5px;}
+    }
+    footer{
+        max-height: 300p;
+        background-color: beige;
+        color: white;
+        text-align: justify;
+    }
